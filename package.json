@@ -1,0 +1,49 @@
+{
+  "name": "consequaturvitae",
+  "version": "1.0.0",
+  "author": "AustinGraham",
+  "description": "pure-JS library to handle codepages",
+  "keywords": [
+    "ut",
+    "iconv",
+    "convert",
+    "enim"
+  ],
+  "bin": {
+    "codepage": "./bin/codepage.njs"
+  },
+  "files": [
+    "LICENSE",
+    "README.md",
+    "bin",
+    "cptable.js",
+    "cputils.js",
+    "dist/cpexcel.full.js"
+  ],
+  "main": "cputils.js",
+  "dependencies": {
+    "voc": "",
+    "concat-stream": "",
+    "exit-on-epipe": "",
+    "commander": ""
+  },
+  "devDependencies": {
+    "mocha": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KittyEmmerich/consequaturvitae.git"
+  },
+  "config": {
+    "blanket": {
+      "pattern": "[cptable.js,cputils.js,cpexcel.js]"
+    }
+  },
+  "bugs": {
+    "url": "https://github.com/KittyEmmerich/consequaturvitae.git/issues"
+  },
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">=0.8"
+  }
+}
